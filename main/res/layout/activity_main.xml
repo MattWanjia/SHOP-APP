@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#33FFE9">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:layout_width="200sp"
+            android:layout_height="200sp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/cartImage"
+            android:background="@drawable/shopping_cart_icon"
+            android:layout_margin="10sp"/>
+
+        <Button
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/joinNow"
+            android:text="JOIN NOW"
+            android:textSize="20sp"
+            android:background="#ff33f9"/>
+
+        <Button
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/alreadyMember"
+            android:text="Already a member?"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
